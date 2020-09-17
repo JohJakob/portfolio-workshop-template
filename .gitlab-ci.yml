@@ -1,0 +1,11 @@
+image: node:12
+
+pages:
+  script:
+    - npm install
+    - npm run export
+    - mv public public-old
+    - mv out public
+  artifacts:
+    paths:
+      - public

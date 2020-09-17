@@ -1,7 +1,8 @@
 backend:
  name: gitlab
  repo: johjakob/portfolio-workshop-template
- auth_type: implicit 
+ auth_type: implicit
+ app_id: aa891856ad3d7cb937d74f6b334cb34daedf0a917aa3b6bfaef89ffb87f138f2
  api_root: https://gitlab.dessau.design/api/v4
  base_url: https://gitlab.dessau.design
  auth_endpoint: oauth/authorize
