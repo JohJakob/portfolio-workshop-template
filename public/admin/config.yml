@@ -1,0 +1,9 @@
+backend:
+ name: gitlab
+ repo: johjakob/portfolio-workshop-template
+ auth_type: implicit 
+ api_root: https://gitlab.dessau.design/api/v4
+ base_url: https://gitlab.dessau.design
+ auth_endpoint: oauth/authorize
+media_folder: public/img
+public_folder: img
