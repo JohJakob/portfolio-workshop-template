@@ -10,3 +10,22 @@ backend:
  auth_endpoint: oauth/authorize
 media_folder: public/img
 public_folder: img
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+    - label: "Home"
+      name: "home"
+      file: "content/home.md"
+    - label: "About"
+      name: "about"
+      file: content/about.md
+  - name: "projects"
+    label: "Projects"
+    folder: "content/_projects"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Discipline", name: "discipline", widget: "string"}
+      - {label: "Cover Image", name: "cover", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
