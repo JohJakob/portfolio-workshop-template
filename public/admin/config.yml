@@ -1,5 +1,5 @@
 backend:
- name: gitlab
+ name: test-repo
  repo: johjakob/portfolio-workshop-template
  branch: master
  auth_type: implicit
@@ -19,13 +19,13 @@ collections:
       file: "content/home.md"
       fields:
         - {label: "Title", name: "title", widget: "string"}
-        - {label: "Body", name: "body", widget: "string"}
+        - {label: "Body", name: "body", widget: "markdown"}
     - label: "About"
       name: "about"
       file: content/about.md
       fields:
         - {label: "Title", name: "title", widget: "string"}
-        - {label: "Body", name: "body", widget: "string"}
+        - {label: "Body", name: "body", widget: "markdown"}
   - name: "projects"
     label: "Projects"
     folder: "content/_projects"
