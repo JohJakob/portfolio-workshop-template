@@ -1,5 +1,5 @@
 backend:
- name: test-repo
+ name: gitlab
  repo: johjakob/portfolio-workshop-template
  branch: master
  auth_type: implicit
