@@ -15,7 +15,9 @@
   "dependencies": {
     "next": "^9.5.3",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "reactv16-mailto": "^0.4.4",
+    "sass": "^1.26.11"
   },
   "devDependencies": {
     "frontmatter-markdown-loader": "^3.6.0"
